@@ -1,4 +1,4 @@
-# P2P File Transfer
+# P2P File Transfer (Project Caleb)
 Secure peer-to-peer file transfer, encrypted and scrambled over TCP/IP, written in core Java without third-party libraries.
 
 ## Introduction
