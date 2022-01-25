@@ -6,7 +6,7 @@ Project Caleb was created as a peer-to-peer (‘P2P’) file transfer tool to wo
 
 When mainstream file transfer methods such as FTP, HTTP, shared folder, etc. weren’t an option, I resorted to writing my own Java code.
 
-This P2P program transfers an entire directory contents including its sub-directories between a client and server securely using AES encryption. A new key is generated for each new session. Additionally, the server-client commands are also scrambled slightly differently for each new file, making data dump analysis difficult for network sniffers.
+This P2P program transfers an entire directory contents including its sub-directories between a client and server securely using AES encryption. A new key is generated for each new session. Additionally, the server-client commands are also scrambled slightly differently for each new file, making data dump analysis difficult for network sniffers. To ensure data integrity, MD5 checksums are verified for each file transfer.
 
 Project Caleb was built upon three personal objectives:
 1. The performance must be reasonably fast and stable to transfer over 50GB of data
