@@ -59,4 +59,7 @@ For Client:
 java -cp pcaleb.jar net.islyn.caleb.main.StartClient [listen_ip] [listen_port] [sending_directory]
 ```
 
-Note that you must start the Server part before Client.
+Note that you must start the Server component before Client.
+
+## Audit Logs
+Both Client and Server components will generate errors and events log in directories named "pcalebsendlogs" and "pcalebrecvlogs" respectively. The file name formats are ER_yyyyMMdd.txt and EV_yyyyMMdd.txt. Whereas the error log will only be populated should an error is thrown from the program, the events log will record connectivity and file transfer details.
