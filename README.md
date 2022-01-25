@@ -8,6 +8,13 @@ When mainstream file transfer methods such as FTP, HTTP, shared folder, etc. wer
 
 This P2P program transfers an entire directory contents including its sub-directories between a client and server securely using AES encryption. A new key is generated for each new session. Additionally, the server-client commands are also scrambled slightly differently for each new file, making data dump analysis difficult for network sniffers.
 
+Project Caleb was built upon three personal objectives:
+1. The performance must be reasonably fast and stable to transfer over 50GB of data
+2. The transfer stream must be secure and not easily be recognized by monitoring tools
+3. The supported files system must be compatible for use between Windows and Mac.
+
+I hope this tool benefits your project and/or personal use as it did for me.
+
 ## Usage in Code
 To create the Server part in Java:
 ```
