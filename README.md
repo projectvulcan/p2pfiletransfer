@@ -1,5 +1,5 @@
 # P2P File Transfer (Project Caleb)
-Secure peer-to-peer file transfer, encrypted and scrambled over TCP/IP, written in core Java without third-party libraries.
+Secure client-server file transfer an entire folder encrypted and scrambled over TCP/IP, written in core Java without third-party library.
 
 ## Introduction
 Project Caleb was created as a peer-to-peer (‘P2P’) file transfer tool to work around restrictions in my operating environment.
